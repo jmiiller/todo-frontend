@@ -1,0 +1,6 @@
+query getTodoItems {
+  todoItems {
+    id
+    content
+  }
+}

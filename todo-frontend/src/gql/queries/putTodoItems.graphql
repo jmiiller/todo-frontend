@@ -1,0 +1,6 @@
+mutation putTodoItems($input: PutTodoItemInput!) {
+  putTodoItem(input: $input) {
+    id
+    content
+  }
+}

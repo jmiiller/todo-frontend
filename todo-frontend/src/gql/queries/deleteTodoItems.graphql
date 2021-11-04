@@ -1,0 +1,6 @@
+mutation deleteTodoItems($input: DeleteTodoItemInput!) {
+  deleteTodoItem(input: $input) {
+    id
+    content
+  }
+}

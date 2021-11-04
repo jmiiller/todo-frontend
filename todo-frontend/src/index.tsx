@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { App } from './components/App';
 import reportWebVitals from './reportWebVitals';
+import { ApolloWrapper } from './components/ApolloWrapper';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ApolloWrapper>
+      <App />
+    </ApolloWrapper>
   </React.StrictMode>,
   document.getElementById('root')
 );
